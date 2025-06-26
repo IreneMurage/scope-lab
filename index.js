@@ -1,23 +1,22 @@
-// Write your solution in this file!
 var customerName = "bob";
 
-function upperCaseCustomerName(){
-    customerName = customerName.toUpperCase();
+
+function upperCaseCustomerName() {
+  customerName = customerName.toUpperCase();
 }
 
-function setBestCustomer(){
-    var bestCustomer = "not bob"
-    return bestCustomer;
+
+function setBestCustomer() {
+  bestCustomer = "not bob";
 }
 
-function overwriteBestCustomer(){
-    var bestCustomer = "maybe bob";
 
+function overwriteBestCustomer() {
+  bestCustomer = "maybe bob"; 
 }
 
 const leastFavoriteCustomer = "Irene";
 
-function changeLeastFavoriteCustomer(){
-    var leastFavoriteCustomer = "Muthoni";
-    return leastFavoriteCustomer;
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = "Muthoni"; 
 }
